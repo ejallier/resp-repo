@@ -1,0 +1,18 @@
+@media only screen and (min-width:1300px){
+/* media pour header */
+	header{ 	float : left; width : 50%}
+	header h1{font-size : 1.6em}
+
+
+/* media pour nav */
+	nav{ 	float : left; width : 50% ; margin-top : 5rem}
+	nav li { width : 20% }
+	nav li a{ padding : 0; text-align : center; }
+
+/* media pour tagline */
+	#tagline :last-child{text-align : right;}
+
+/* media pour content */
+	#content section article{float : left ; width : 50%; padding-right : 1%}
+	#content section article:first-of-type{float : none; width : auto; padding  : 0}
+}
